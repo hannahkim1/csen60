@@ -1,0 +1,33 @@
+/*
+order of precedence:
+    1. inline styles
+    2. internal styles
+    3. external styles
+
+caveat: !important will override any precedence
+*/
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1c87c9;
+}
+
+p {
+    color: purple;
+    /* background-color: orange; */
+}
+
+/* class */
+.middle-p {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* id */
+#mainText {
+    line-height: 30px;
+}
