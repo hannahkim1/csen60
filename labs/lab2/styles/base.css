@@ -1,0 +1,66 @@
+body {
+  /** define custom properties so we can reference and change styles easily */
+  --accent-background: #54a0ff;
+  --accent-background-text: #073164;
+  --accent-text: #2e86de;
+  --gray: #eee;
+  --dark-gray: #ccc;
+  --darkest-gray: #aaa;
+  --black: #333;
+
+  color: var(--black);
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+
+/**
+  unordered list
+*/
+
+ul.tags {
+  display: flex;
+  list-style: none;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 0px;
+
+}
+
+ul.tags li {
+  border-radius: 5px;
+  background-color: #eee;
+  /* background color should be --gray */
+  padding: 5px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+ul.tags a {
+  /*color should be darkest-gray*/
+  color: #aaa
+}
+
+/**
+  navigation
+*/
+nav {
+  /* background color should be accent-background */
+  background-color: #54a0ff;
+}
+
+nav ul {
+  /* something should go here */
+  list-style: none;
+  text-align: right;
+  margin: 0;
+  padding: 10px;
+}
+
+nav ul a {
+  /* color should be accent-background-text */
+  color: #073164;
+  text-decoration: none;
+}
