@@ -15,7 +15,7 @@ ul {
     text-decoration: none;
 } */
 
-header, footer {
+header {
     display: flex;
     justify-content: space-between;
 }
@@ -33,4 +33,15 @@ button {
     display: flex;
     gap: 1rem;
     align-items: center;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
 }
