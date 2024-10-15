@@ -1,0 +1,65 @@
+header {
+  /* think about which properties you'd want to use to make the header */
+  /* border-bottom color should be accent-background */
+
+  border: solid;
+  border-width: 2px;
+  border-bottom-color: #54a0ff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  text-align: right;
+}
+
+input[type="search"] {
+  border-radius: 5px;
+  background-color: white;
+  border: solid medium #ccc;
+  padding: 10px;
+  
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+article h1 a {
+  /*color should be accent-background */
+  color: #54a0ff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+article {
+  flex-basis: 25%;
+  margin: 30px;
+  margin-top: 20px;
+  
+}
+
+/**
+  navigation
+*/
+nav {
+  /* background color should be accent-background */
+  background-color: #54a0ff;
+}
+
+nav ul {
+  /* something should go here */
+  list-style: none;
+  text-align: right;
+  margin: 0;
+  padding: 10px;
+}
+
+nav ul a {
+  /* color should be accent-background-text */
+  color: #073164;
+  text-decoration: none;
+}
