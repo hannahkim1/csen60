@@ -1,0 +1,55 @@
+/* the old way of doing horizontal layout */
+/* li {
+    display: inline-block;
+} */
+
+/* the modern way of doig horizontal layout */
+ul {
+    display: flex;
+    flex-direction: row; /* by default, display: flex has flex direction row */
+    list-style: none;
+    gap: 16px;
+}
+
+/* li a {
+    text-decoration: none;
+} */
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#climateMessage {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+main {
+    align-self: center;
+}
+
+/*footer {
+    position: absolute;
+    bottom: 0;
+}
+*/
