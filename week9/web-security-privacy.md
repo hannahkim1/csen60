@@ -33,6 +33,9 @@
 ### Browser Server Communication
 - https represents an encrypted connection
 
+### Digital Certificate
+- ensures that the connection is valid and that the website is an authentic site
+
 ## Privacy
 ### Cookies
 - name/value pair created by a website to store information on your computer
@@ -44,3 +47,15 @@
 - statement saying what the website does with the information it collects
 - considered legally binding
 - written in dense legal language
+
+### Data Collection
+- social networks
+    - know a lot of information about the user, voluntarily
+- anything can be tracked
+- internet is forever
+- better targeted the ad, the better chance of a conversion
+
+### Sensitive information
+- PII (persionally identifiable information)
+    - name, address, phone, race, age, credit cards
+- 
