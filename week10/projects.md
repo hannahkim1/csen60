@@ -20,3 +20,22 @@
 - used js to save local storage cookies
 - making comments describing the functions is helpful
 
+## Nike
+- react js, tailwind css, vercel, super advanced stuff
+    - used components
+- 3 pages replicated
+- cart page is super interactive with multiple functionalities
+- created a full stack application
+
+## Reddit
+- 2 pages recreated
+- found js and the css organization a little bit messy 
+- html css js used
+- struggled with working with github for the first time
+
+## Smolarski
+- dark and light mode
+- search functions
+- remade the website instead of recreating it, giving a fresh spin to it
+- evenly distributed work
+- used figma
