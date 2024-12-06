@@ -39,3 +39,17 @@
 - remade the website instead of recreating it, giving a fresh spin to it
 - evenly distributed work
 - used figma
+
+## Bluey
+- each person did one functionality
+- four people, interactive website
+- a lot of merge error problems 
+- some problems: loading time was too long, they would lower resolution or comment some of the images
+- didn't a base css
+- implemented a scroll (mouse pad) for the carousel
+- very in depth demo
+
+## Pinterest
+- 3 pages, one page for each person
+- multiple functionalities on each page
+- have cookies to save each picture
